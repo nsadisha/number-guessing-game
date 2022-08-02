@@ -11,7 +11,7 @@ import SwiftUI
 struct Guess_the_numberApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            StartScreen()
         }
     }
 }

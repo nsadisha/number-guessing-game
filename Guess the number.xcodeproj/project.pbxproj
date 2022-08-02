@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		ABD4D5CC2898FA2D00EFED42 /* Guess_the_numberApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4D5CB2898FA2D00EFED42 /* Guess_the_numberApp.swift */; };
-		ABD4D5CE2898FA2D00EFED42 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4D5CD2898FA2D00EFED42 /* ContentView.swift */; };
+		ABD4D5CE2898FA2D00EFED42 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4D5CD2898FA2D00EFED42 /* StartScreen.swift */; };
 		ABD4D5D02898FA2E00EFED42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD4D5CF2898FA2E00EFED42 /* Assets.xcassets */; };
 		ABD4D5D32898FA2E00EFED42 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABD4D5D22898FA2E00EFED42 /* Preview Assets.xcassets */; };
+		ABD4D5DA2898FADF00EFED42 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABD4D5D92898FADF00EFED42 /* GameView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABD4D5C82898FA2D00EFED42 /* Guess the number.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Guess the number.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABD4D5CB2898FA2D00EFED42 /* Guess_the_numberApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess_the_numberApp.swift; sourceTree = "<group>"; };
-		ABD4D5CD2898FA2D00EFED42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		ABD4D5CD2898FA2D00EFED42 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
 		ABD4D5CF2898FA2E00EFED42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ABD4D5D22898FA2E00EFED42 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ABD4D5D92898FADF00EFED42 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				ABD4D5CB2898FA2D00EFED42 /* Guess_the_numberApp.swift */,
-				ABD4D5CD2898FA2D00EFED42 /* ContentView.swift */,
+				ABD4D5CD2898FA2D00EFED42 /* StartScreen.swift */,
+				ABD4D5D92898FADF00EFED42 /* GameView.swift */,
 				ABD4D5CF2898FA2E00EFED42 /* Assets.xcassets */,
 				ABD4D5D12898FA2E00EFED42 /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABD4D5CE2898FA2D00EFED42 /* ContentView.swift in Sources */,
+				ABD4D5CE2898FA2D00EFED42 /* StartScreen.swift in Sources */,
+				ABD4D5DA2898FADF00EFED42 /* GameView.swift in Sources */,
 				ABD4D5CC2898FA2D00EFED42 /* Guess_the_numberApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,6 +276,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -280,10 +285,10 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nsadisha.ios.Guess-the-number";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Guess the number";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -300,6 +305,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -308,10 +314,10 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.nsadisha.ios.Guess-the-number";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Guess the number";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
